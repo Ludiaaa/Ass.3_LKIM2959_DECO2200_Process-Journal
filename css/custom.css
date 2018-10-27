@@ -1,0 +1,236 @@
+body{
+	background-image: linear-gradient(#FA8072, #40E8C9, #53E2FF);
+	padding-top: 80px;
+
+}
+
+/*Home*/
+.full-page-bg {
+  position: absolute;
+  margin-top: -50px;
+  padding-bottom: 50px;
+  width:100%;
+  min-height: 100vh;
+  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*Cards*/
+.card{border: none; background-color: transparent;}
+
+/*Navbar Rules*/
+img.nav-bar-img{
+	margin-right: 10px;
+}
+
+.navbar{
+	background-color: #F9F9F9;
+
+}
+
+a.navbar-brand{
+	font-family:'Montserrat', Sans-Serif;
+	font-size: 
+}
+
+/*Floating Nav*/
+.floating-nav{
+	position: fixed;
+	margin-top: 50px;
+	border-left: 1px solid #414042;
+}
+
+	a.float-nav-link{
+		font-family: 'Lato', Sans-Serif;
+		color: #414042;
+		font-size: 15px;
+		font-weight: 600;
+		text-align: left;
+	}
+
+/*Image Rules*/
+img{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+/*Font Override Rules*/
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Montserrat', Sans-Serif;
+	margin-bottom: 20px;
+}
+	h1.welcome-special{
+		font-size: 90px;
+	}
+
+	h2.welcome-special-sub{
+		font-family: 'Lato', Sans-Serif;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	h3{
+		text-transform: uppercase;
+		color: #a49727;
+		letter-spacing: -0.5px;
+		font-weight: bold;
+	}
+
+p, li, span, a {
+	font-family: 'Lato', Sans-Serif;
+	text-align: justify;
+	font-weight: 300;
+}
+
+	p{
+		color: #414042;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+
+span.img-caption{
+	display: block;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+}
+
+/*Container/class etc Override Rules*/
+.welcome-message{
+	margin-top: 200px;
+}
+
+.welcome-button-container{
+	margin-top: 20px;
+}
+
+.welcome-button{
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	border: 3px solid #000;
+	font-family:'Montserrat', Sans-Serif;
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.welcome-button:hover{
+	background-color: #000;
+	border-color: #000;
+}
+
+.master-heading{
+	padding-top: 50px;	
+}
+
+.section-heading{
+	padding-top: 100px;	
+}
+
+.slide-show{
+	padding: 30px 0px 50px 0px;
+}
+
+/*Footer*/
+.footer{
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	background-color: #989898;
+	border-top: 1px solid #727272;
+}
+
+.tab-content{
+	background-color: white;
+	padding-right: 50px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.nav-link{
+	color: black;
+	font-weight: bold;
+}
+
+.tab-content{
+	max-width: 100%;
+}
+
+.img-fluid{
+	padding-bottom: 30px;
+}
+
+.row{
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+/* Slides (editting the icons to circular shape) of the carousel/slideshow */
+#slide1 {
+  height:20px !important;
+  width: 20px !important;
+  background-color: darkgrey !important;
+  border-radius: 20px;
+}
+
+#slide2 {
+  height:20px !important;
+  width: 20px !important;
+  background-color: grey !important;
+  border-radius: 20px;
+}
+
+#slide3 {
+  height:20px !important;
+  width: 20px !important;
+  background-color: black !important;
+  border-radius: 20px;
+}
+
+h2{
+	color: black;
+	font-weight: bolder;
+	font-size: 50px;
+	text-underline-position: center;
+}
+
+h3{
+	padding-top: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+h4{
+	padding-top: 35px;
+	color: grey;
+	font-weight: bolder;
+}
+
+h5{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+#Round1Feedback1{
+	background-color: white;
+	padding: 20px;
+}
+
+#Round1Feedback2{
+	background-color: lightgrey;
+	padding: 20px;
+}
+
+#Round1Feedback3{
+	background-color: grey;
+	padding: 20px;
+}
+
